@@ -40,7 +40,7 @@ module.exports = {
 
             // 静态资源引入模块
             {
-                test: /\.(gif|png|jpg|svg|mp3|mp4|avi|woff|ttf)$/,
+                test: /\.(gif|png|jpg|svg|mp3|mp4|avi|woff|ttf|eot)$/,
                 use: [
                     // 小于10KB的才打包
                     {
@@ -69,7 +69,7 @@ module.exports = {
     // webpack-dev-server的配置
     devServer: {
         open: true, // 服务启动后自动打开浏览器
-        port: 8888, // 服务端口
+        port: 8889, // 服务端口
         contentBase: 'dist' // 开启服务的目录
     }
 
