@@ -1,25 +1,21 @@
 <template>
     <div>
         <app-breadcumd></app-breadcumd>
-        <app-list></app-list>
-        
         <app-top></app-top>
-        
+        <app-list></app-list>
     </div>
 </template>
 
 <script>
-    import ListComponent from './frame/List.vue';
-
     import BreadcumdComponent from './frame/Breadcumd.vue';
     import TopComponent from './frame/Top.vue';
+    import ListComponent from './frame/List.vue';
 
     export default {
         components: {
-            appList: ListComponent,
-            
             appBreadcumd: BreadcumdComponent,
             appTop: TopComponent,
+            appList: ListComponent,
         }
     };
 </script>

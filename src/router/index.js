@@ -9,9 +9,9 @@ const routerConfig = [
     //默认访问
     { path: '/', redirect: '/goods' },
 
-    { path: '/goods', commponent: GoodsHomeComponent },
-    { path: '/goods/detail/:id', commponent: GoodsDetailComponent },
-    { path: '/goods/more', commponent: GoodsMoreComponent },
+    { name: 'g', path: '/goods', component: GoodsHomeComponent },
+    { name: 'gd', path: '/goods/detail/:id', component: GoodsDetailComponent },
+    { name: 'gm', path: '/goods/more', component: GoodsMoreComponent },
 
 ]
 
